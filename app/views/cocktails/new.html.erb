@@ -1,9 +1,26 @@
+<div class="navbar navbar-expand-sm navbar-light navbar-lewagon">
+
+  <div id="naviconbg">
+    <a href="/cocktails">
+      <a class="navbar-brand" href="/cocktails">
+        <i class="fas fa-glass-martini-alt" id="navicon"></i>
+      </a>
+    </a>
+  </div>
+
+  <div class="collapse navbar-collapse">
+    <ul class="navbar-nav mr-auto">
+      <li>
+        <a class="btn btn-primary" href="/cocktails/new">Add New Cocktail</a>
+      </li>
+    </ul>
+  </div>
+</div>
 <div class="container">
   <h1>New cocktail</h1>
   <%= simple_form_for(@cocktail) do |f| %>
     <%= f.input :name %>
     <%= f.submit "Add a cocktail" %>
   <% end %>
-  <p><%= link_to "Back to Cocktails", cocktails_path %></p>
 </div>
 

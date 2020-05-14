@@ -1,0 +1,64 @@
+.navbar-lewagon {
+  justify-content: space-between;
+  background: black;
+}
+
+.navbar-lewagon .navbar-collapse {
+  flex-grow: 0;
+}
+
+.navbar-lewagon .navbar-brand img {
+  width: 40px;
+}
+
+#naviconbg {
+position: relative;
+display: block;
+background: white;
+border-radius: 15px;
+text-align: center;
+}
+
+#navicon{
+color: black;
+transform: translateY(0%);
+transform: translateX(35%);
+transition: 0.5s;
+}
+
+#navicon:hover  {
+color: white;
+
+}
+
+#naviconbg:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transform-origin: top;
+  transform: scaleY(0);
+  color: black;
+  transition: 0.5s;
+  transform: 0.5s;
+  background: black;
+}
+
+#naviconbg:hover:before {
+  transform: scaleY(1);
+
+}
+
+.btn-primary {
+  background-color: red;
+  border-color: red;
+}
+
+.btn-primary:hover {
+  background-color: green;
+  border-color: green;
+}
+
+
