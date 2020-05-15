@@ -1,15 +1,20 @@
 .banner {
   height: 250px;
   color: white;
-  background-size: cover;
+  background-color: black;
+  background-repeat: no-repeat;
+  background-size: auto;
   margin: auto;
   padding: 0;
-  background-image: url(https://www.okuratokyobay.net/CMS/default/cache/file/C9A5B490-D407-7B22-B1298B4DD45E7418.jpg);
+  background-image: url(https://res.cloudinary.com/dwfn07uka/image/upload/c_scale,h_245,q_100/v1589528013/yqlvgytc0mjwc0wz4xzw.jpg);
   text-align: center;
 
 }
 
 .bannerh1 {
-  line-height: 75px;
+  line-height: 200px;
+  float: right;
+  font-size: 96px;
   font-family: 'Inknut Antiqua', serif;
 }
+
